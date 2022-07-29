@@ -58,6 +58,9 @@ function Home1() {
             <h2>phone</h2>
 
             </div>
+
+            <button className="flex items-center mx-auto  bg-[#fa5252ef] hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6">Download CV</button>
+           
           </div>
         </div>
         <div>
