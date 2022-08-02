@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "./components/card";
-import Home1 from "./home1";
 
 const Items = [
   {
