@@ -63,8 +63,7 @@ background-repeat: no-repeat;
     display: none;
   }
   .about-card{
-    margin-top: 1000px;
-   margin-left: -650px;
+  flex-direction: column;
   }
   .profile{
   display: none;

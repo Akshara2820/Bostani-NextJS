@@ -19,9 +19,9 @@ function Blog() {
 
          {Items.map((item) => {
               return (
-          <div className="rounded-lg bg-pink-50 p-[20px]">
+          <div className="rounded-lg bg-pink-50 p-[20px]"  key={item.catagory}>
                 <div className="">
-                  <div className="overflow-hidden rounded-lg">
+                  <div className="overflow-hidden rounded-lg ">
                     <img className="  transition duration-200 ease-in-out transform hover:scale-110 rounded-lg  " src={item.image} alt="Loading..."/>
                   </div>
                   <span className="">{item.catagory}</span>

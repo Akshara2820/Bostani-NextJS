@@ -41,7 +41,7 @@ function About() {
       <Card title="About">
         
           <div>
-            <p className="about-paragraph mt-10 text-gray-500 font-[Poppins, sans-serif]">
+            <p className="about-paragraph mt-10 p-[30px] text-gray-500 font-[Poppins, sans-serif]">
               I'm Creative Director and UI/UX Designer from Sydney, Australia,
               working in web development and print media. I enjoy turning
               complex problems into simple, beautiful and intuitive designs. My
@@ -60,7 +60,7 @@ function About() {
           <div className="grid-cols-1 sm:grid-cols-2 lg:grid-cols-2  mt-[30px] grid gap-x-10 gap-y-7  mb-6">
             {Items.map((item) => {
               return (
-                <div className="rounded-lg bg-pink-50 p-[20px]">
+                <div className="rounded-lg bg-pink-50 p-[20px]" key={item.image}>
                   <div className="">
                     <div className="flex overflow-hidden rounded-lg">
                       <img className="" src={item.image} alt="Loading..." />

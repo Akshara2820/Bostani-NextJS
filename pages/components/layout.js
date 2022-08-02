@@ -28,6 +28,7 @@ const value = false
 
   return (
     <>
+    <div className="">
       <div>
         <Header />
       </div>
@@ -45,6 +46,7 @@ const value = false
 
           {children}
         </div>
+      </div>
       </div>
     </>
   );

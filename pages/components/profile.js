@@ -27,7 +27,6 @@ function Profile() {
             Akshara Mishra
           </h1>
           <h3 className="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6]  ">
-            {" "}
             Ui/Ux Designer
           </h3>
           <div className=" flex justify-center space-x-3">

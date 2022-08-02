@@ -34,7 +34,7 @@ function Works() {
           <div className="p-[30px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-2  grid  gap-x-10 gap-y-7  mb-6">
             {Items.map((item) => {
               return (
-                <div className="rounded-lg bg-pink-50 p-[20px]">
+                <div className="rounded-lg bg-pink-50 p-[20px]" key={item.name}>
                   <div className="">
                     <div className="overflow-hidden rounded-lg">
                       <img
