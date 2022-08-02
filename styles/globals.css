@@ -4,6 +4,14 @@
 
 body{
   background-image: url('../public/bg.jpg');
+background-repeat: no-repeat;
+}
+.about-heading{
+  --tw-gradient-from:#fa5252;
+}
+.headercontainer{
+  margin-left: auto;
+  margin-right: auto;
 }
 .resume-btn{
   background-color: rgb(237 242 242);
@@ -18,8 +26,64 @@ body{
 }
 
 
-@media only screen and (min-width:80px) and (max-width:479px){
+@media only screen and (max-width:1024px){
+  .navbar{
+    display: none;
+  }
+  .menu-bar{
+    width: 30px;
+    height: 3px;
+    background-color: #ef4060;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(255, 101, 47, .2);
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+@media only screen and (min-width:80px) and (max-width:770px){
   body{
     background-image: none;
   }
+  .header{
+    background-color: rgb(229, 245, 252);
+
+  }
+
+  .heading{
+    font-size: 45px;
+    margin-left: -620px;
+    margin-top: -225px;
+  }
+ 
+  .about-head{
+    margin-top: -190px;
+   font-size: 45px;
+  }
+  .about-paragraph{
+    display: none;
+  }
+  .about-card{
+    margin-top: 1000px;
+   margin-left: -650px;
+  }
+  .profile{
+  display: none;
+  }
+  .resume{
+    margin-left: -300px;
+    margin-top: -200px;
+  }
+  .works{
+    margin-left: -300px;
+    margin-top: -300px;
+  }
+  .blog{
+    margin-left: -300px;
+    margin-top: -250px;
+  }
+  .contact{
+    margin-left: -300px;
+    margin-top: -200px;
+  }
+ 
 }
